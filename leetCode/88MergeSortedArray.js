@@ -63,6 +63,7 @@ console.log(merge(nums1, m, nums2, n)); // Expected Output: [1]
 
 
 // pointer solution>>>>>>>>.
+// array.splice(index, 0, ...elements)
 
 // const merge = (nums1, m, nums2, n) => {
 //   let left = m - 1
