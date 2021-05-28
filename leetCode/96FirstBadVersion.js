@@ -36,3 +36,8 @@
       }
   }
 };
+
+// Time complexity O(log(n))
+// Space complexity O(1)
+// Runtime beats 87.19 % of javascript submissions.
+// Memory usage beats 72.57 % of javascript submissions.
