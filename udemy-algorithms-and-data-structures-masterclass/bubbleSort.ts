@@ -1,5 +1,5 @@
-
-let bubbleSort = (input: number[]):number[] => {
+export {};
+let bubbleSort = (input: number[]) => {
   // loop for the # of swap passes
   for (let i = input.length; i >= 1; i--) {
     // loop for swaps

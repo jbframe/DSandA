@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var bubbleSort = function (input) {
     // loop for the # of swap passes
     for (var i = input.length; i >= 1; i--) {
