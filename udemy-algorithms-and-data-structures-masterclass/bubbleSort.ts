@@ -1,19 +1,21 @@
-let bubbleSort = (array) => {
+
+let bubbleSort = (input: number[]):number[] => {
   // loop for the # of swap passes
-  for (let i = array.length; i >= 1; i--) {
+  for (let i = input.length; i >= 1; i--) {
     // loop for swaps
     for (let j = 0; j <= i - 1; j++) {
-      if (array[j] > array[j+1]) {
-        temp = array[j+1];
-        array[j+1] = array[j];
-        array[j] = temp;
+      if (input[j] > input[j+1]) {
+        let temp: number;
+        temp = input[j+1];
+        input[j+1] = input[j];
+        input[j] = temp;
       }
     }
   }
-  return array
+  return input
 }
 
 
 // test
-a = [4, 1, 8, 5, 5, 3, 3];
+let a = [4, 1, 8, 5, 5, 3, 3];
 console.log(bubbleSort(a));//expected result [1, 4, 5, 5, 8]
